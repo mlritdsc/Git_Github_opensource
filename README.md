@@ -1,8 +1,6 @@
-#
-**A guide to Git, GitHub and Open Source**
+# **A guide to Git, GitHub and Open Source**
 
-##
-*This is a compilation of Git code from the Workshop conducted by Developer Student Clubs, MLRIT*
+ *This is a compilation of Git code from the Workshop conducted by Developer Student Clubs, MLRIT*
 
 ###
 **Setup**
@@ -37,7 +35,7 @@ git clone [url]
 ###
 **Stage & Snapshot**
 
-* To get the 'Status'
+* To get the `Status`
 
 ```git 
 git status
@@ -69,12 +67,12 @@ git commit -m "[message]"
 git branch
 ```
 
-* To create a new 'Branch'
+* To create a new `Branch`
 ```git 
 git branch [branch-name]
 ```
 
-* To 'merge' current branch to working directory
+* To `merge` current branch to working directory
 ```git 
 git merge [branch]
 ```
