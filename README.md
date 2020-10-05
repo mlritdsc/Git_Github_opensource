@@ -1,34 +1,86 @@
-This is a Readme file.
-Welcome to MLRIT DSC.
+# **A guide to Git, GitHub and Open Source**
 
-Join us for a Fun session on Git, GitHub and Open source!
+ *This is a compilation of Git code from the Workshop conducted by Developer Student Clubs, MLRIT*
 
-The importance of Git in today's software industry is unimaginable.
+###
+**Setup**
 
-Git was designed to help developers spread across the globe, working on complicated projects coordinate their work in a rational way and keep track of everything they were doing. Overtime, Git has grown to be used for millions of projects today.
+*To set your name*
 
-Hence Git has become one of the essential skills that every Developer must possess
+```git
+git config --global user.name "[name]"
+```
 
-What will I learn when I attend this workshop:
+*To set your email Id*
 
-* What is Git.
+```
+git config --global user.email "[email id]"
+```
 
-* Learn how Git and Github work.
+###
+**Creating a Repository**
 
-* Learn to Push, commit, and navigate a versioned timeline of your coding history.
+You can create a Git repository two ways:
 
-* Use fork and pull requests.
+1. You can turn a local directory, which is currently not in Git to git as: 
+```git 
+git init 
+```
 
-* Learn what is Open Source and How you can contribute to Open source projects
+2. You can clone a git repository from somewhere else like GitHub as
+```git 
+git clone [url]
+```
 
+###
+**Stage & Snapshot**
 
+* To get the `Status`
 
-Benefits you will get:
+```git 
+git status
+```
 
-* You will understand the most important and basic operational commands of Git.
+* To stage files
 
-* You will be able to learn how to work and collaborate on your projects remotely.
+```git 
+git add [file]
+```
 
-* You will be able to make your first Open source Contribution.
+* To Unstage a file
 
-So? What are you waiting for RSVP today to save a seat!
+```git 
+git reset [file]
+```
+
+* To commit a file
+
+```git 
+git commit -m "[message]"
+```
+
+###
+**Branch & Merge**
+
+* To list out all the branches
+```git 
+git branch
+```
+
+* To create a new `Branch`
+```git 
+git branch [branch-name]
+```
+
+* To `merge` current branch to working directory
+```git 
+git merge [branch]
+```
+
+###
+**Updating the Remote Repo**
+ To transmit local branch commits to the remote repository branch
+
+ ```git 
+git push [Add a git url] [branch]
+```
